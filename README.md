@@ -55,15 +55,9 @@ npm run dev
 
 ---
 
-## Demo
-
-PlayCode: (PEGA TU LINK AQUÍ)
-
----
-
 ## Repositorio
 
-GitHub: (PEGA TU LINK AQUÍ)
+GitHub: https://github.com/AndyRamos2020/todo-list-react-25000611
 
 ---
 
