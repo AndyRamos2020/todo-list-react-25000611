@@ -5,9 +5,10 @@ type ItemProps = {
   title: string;
   description: string;
   date: string;
+  onDelete: () => void;
 };
 
-const Item = ({ title, description, date }: ItemProps) => {
+const Item = ({ title, description, date, onDelete }: ItemProps) => {
   return (
     <Card className="item-card">
       <Card.Body className="item-body">
@@ -19,7 +20,9 @@ const Item = ({ title, description, date }: ItemProps) => {
         <p className="item-label">Fecha de Vencimiento</p>
         <p>{date}</p>
 
-        <Button className="item-btn">Eliminar</Button>
+        <Button className="item-btn" onClick={onDelete}>
+          Eliminar
+        </Button>
       </Card.Body>
     </Card>
   );
