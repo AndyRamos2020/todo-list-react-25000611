@@ -43,24 +43,24 @@ function App() {
 
       <Container fluid className="main-container">
         <Row>
-<Col md={6}>
-  <Formulario
-    view={view}
-    onAdd={(data) => {
-      if (view === "tasks") {
-        setTasks([
-          ...tasks,
-          { id: Date.now(), ...data }
-        ]);
-      } else {
-        setGoals([
-          ...goals,
-          { id: Date.now(), ...data }
-        ]);
-      }
-    }}
-  />
-</Col>
+          <Col md={6}>
+            <Formulario
+              view={view}
+              onAdd={(data) => {
+                if (view === "tasks") {
+                  setTasks([
+                    ...tasks,
+                    { id: Date.now(), ...data }
+                  ]);
+                } else {
+                  setGoals([
+                    ...goals,
+                    { id: Date.now(), ...data }
+                  ]);
+                }
+              }}
+            />
+          </Col>
 
           <Col md={6} className="cards-section">
             {view === "tasks" &&

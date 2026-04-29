@@ -12,6 +12,8 @@
   "dependencies": {
     "@reduxjs/toolkit": "^2.11.2",
     "bootstrap": "^5.3.8",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
     "react": "^19.2.4",
     "react-bootstrap": "^2.10.10",
     "react-dom": "^19.2.4",
@@ -33,5 +35,18 @@
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.58.0",
     "vite": "^8.0.4"
-  }
+  },
+  "description": "Aplicación web tipo To Do List para gestionar tareas y metas personales. Permite visualizar tareas con su respectiva fecha límite.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndyRamos2020/todo-list-react-25000611.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndyRamos2020/todo-list-react-25000611/issues"
+  },
+  "homepage": "https://github.com/AndyRamos2020/todo-list-react-25000611#readme"
 }

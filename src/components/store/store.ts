@@ -1,11 +1,11 @@
 import { configureStore } from "@reduxjs/toolkit";
-import goalReducer from "./goalSlice";
 import taskReducer from "./taskSlice";
+import goalReducer from "./goalSlice";
 
 export const store = configureStore({
   reducer: {
-    goals: goalReducer,
     tasks: taskReducer,
+    goals: goalReducer,
   },
 });
 
