@@ -18,6 +18,7 @@ const Formulario = ({ view, onAdd }: Props) => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!title || !date) return;
 
     onAdd({ title, description, date });
 

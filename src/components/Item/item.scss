@@ -1,50 +1,45 @@
-$item-bg: #7ed6c4; // verde claro
+$item-bg: #7ed6c4;
 $item-radius: 12px;
+$btn-bg: #d6c5f7;
 
 .item-card {
   background-color: $item-bg;
   border-radius: $item-radius;
   border: none;
   padding: 20px;
-}
+  margin-bottom: 20px;
 
-.item-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center; // centra horizontal
-  justify-content: center; // centra vertical
-  text-align: center;
-}
+  .item-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 
-.item-title {
-  font-weight: bold;
-  margin-bottom: 10px;
-}
+  .item-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
 
-.item-label {
-  font-weight: bold;
-  margin: 5px 0;
-}
+  .item-label {
+    font-weight: bold;
+    margin: 5px 0;
+  }
 
-.item-text {
-  margin-bottom: 10px;
-}
+  .item-text {
+    margin-bottom: 10px;
+  }
 
-.item-date {
-  margin-bottom: 15px;
-}
+  .item-date {
+    margin-bottom: 15px;
+  }
 
-.item-btn {
-  background-color: #d6c5f7;
-  border: none;
-  color: black;
-  padding: 8px 20px;
-  border-radius: 10px;
-}
-.item-card {
-  background-color: #7ed6c4;
-  border-radius: 12px;
-  border: none;
-  padding: 20px;
-  margin-bottom: 20px; // separación entre tarjetas
+  .item-btn {
+    background-color: $btn-bg;
+    border: none;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 10px;
+  }
 }

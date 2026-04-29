@@ -15,10 +15,10 @@ const Item = ({ title, description, date, onDelete }: ItemProps) => {
         <h3 className="item-title">{title}</h3>
 
         <p className="item-label">Descripción</p>
-        <p>{description}</p>
+        <p className="item-text">{description}</p>
 
         <p className="item-label">Fecha de Vencimiento</p>
-        <p>{date}</p>
+        <p className="item-date">{date}</p>
 
         <Button className="item-btn" onClick={onDelete}>
           Eliminar

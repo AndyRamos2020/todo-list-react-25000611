@@ -1,8 +1,10 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 
 interface Goal {
-  id: number;
   text: string;
+  id: number;
+  title: string;
+  description: string;
   date: string;
 }
 
@@ -18,6 +20,9 @@ const goalSlice = createSlice({
   name: "goals",
   initialState,
   reducers: {
+    setGoals: (state, action: PayloadAction<Goal[]>) => {
+      state.goals = action.payload;
+    },
     addGoal: (state, action: PayloadAction<Goal>) => {
       state.goals.push(action.payload);
     },
@@ -29,5 +34,5 @@ const goalSlice = createSlice({
   },
 });
 
-export const { addGoal, removeGoal } = goalSlice.actions;
+export const { setGoals, addGoal, removeGoal } = goalSlice.actions;
 export default goalSlice.reducer;
