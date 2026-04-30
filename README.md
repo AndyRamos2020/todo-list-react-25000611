@@ -39,7 +39,7 @@ La aplicación se adapta a diferentes tamaños de pantalla gracias a React Boots
 1. Clonar el repositorio:
 
 ```
-git clone https://github.com/AndyRamos2020/todo-list-react-25000611.git
+git clone -b semana2 https://github.com/AndyRamos2020/todo-list-react-25000611.git
 ```
 
 2. Instalar dependencias:
