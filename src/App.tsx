@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Row, Col, Navbar, Nav } from "react-bootstrap";
-import Formulario from "./components/form/Formulario";
-import Item from "./components/item/item";
+import Formulario from "./components/Form/Formulario";
+import Item from "./components/Item/item";
 import "./App.scss";
 
 function App() {
