@@ -18,7 +18,9 @@ const Item = ({ title, description, date, onDelete }: ItemProps) => {
         <p className="item-text">{description}</p>
 
         <p className="item-label">Fecha de Vencimiento</p>
-        <p className="item-date">{date}</p>
+       <p className="item-date">
+    {new Date(date).toLocaleDateString()}
+      </p>
 
         <Button className="item-btn" onClick={onDelete}>
           Eliminar

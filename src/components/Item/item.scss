@@ -1,45 +1,45 @@
-$item-bg: #7ed6c4;
-$item-radius: 12px;
-$btn-bg: #d6c5f7;
-
 .item-card {
-  background-color: $item-bg;
-  border-radius: $item-radius;
-  border: none;
-  padding: 20px;
+  width: 350px;
+  border: none !important;
+  border-radius: 20px !important;
+  background-color: #baf7e8 !important;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12) !important;
+  overflow: hidden;
+}
+
+.item-body {
+  padding: 25px;
+  text-align: center;
+}
+
+.item-title {
+  font-size: 28px;
+  font-weight: bold;
   margin-bottom: 20px;
+}
 
-  .item-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
+.item-label {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
 
-  .item-title {
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
+.item-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
 
-  .item-label {
-    font-weight: bold;
-    margin: 5px 0;
-  }
+.item-date {
+  font-size: 18px;
+  margin-bottom: 25px;
+}
 
-  .item-text {
-    margin-bottom: 10px;
-  }
+.item-btn {
+  background-color: #d8c6ff !important;
+  border: none !important;
+  color: black !important;
+}
 
-  .item-date {
-    margin-bottom: 15px;
-  }
-
-  .item-btn {
-    background-color: $btn-bg;
-    border: none;
-    color: black;
-    padding: 8px 20px;
-    border-radius: 10px;
-  }
+.item-btn:hover {
+  opacity: 0.9;
 }
